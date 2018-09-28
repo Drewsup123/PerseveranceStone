@@ -1,0 +1,51 @@
+header{
+    width:100%;
+    .center();
+    flex-direction: column;
+    position: fixed;
+    h1{
+        font-size:3.5rem;
+    }
+    .nav-contact-info{
+        background:#232323;
+        width:100%;
+        display:flex;
+        justify-content: flex-end;
+        height:2.5rem;
+        a{
+            color:#B79F57;
+            text-decoration:none;
+            margin-right:5%;
+            font-size:1.6rem;
+            &:hover{
+                color:rgb(179, 48, 48);
+            }
+        }
+    }
+
+    .top-nav{
+        height:13rem;
+        width:100%;
+        background:rgba(217, 217, 217, 0.719);
+        .center();
+
+        .nav-links{
+            width:30%;
+            .center();
+            justify-content: space-between;
+            img{
+                height:100px;
+            }
+            a{
+                font-size:2.6rem;
+                color:rgb(155, 134, 72);
+                text-decoration: none;
+                &:hover{
+                    color:rgb(0, 0, 0);
+                    text-decoration: underline;
+                    transition:0.2s;
+                }
+            }
+        }
+    }
+}

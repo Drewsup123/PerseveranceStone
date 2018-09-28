@@ -128,3 +128,85 @@ table {
 html {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+}
+@media ("max-width:500px") {
+  .container {
+    width: 100%;
+  }
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+}
+header h1 {
+  font-size: 3.5rem;
+}
+header .nav-contact-info {
+  background: #232323;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 2.5rem;
+}
+header .nav-contact-info a {
+  color: #B79F57;
+  text-decoration: none;
+  margin-right: 5%;
+  font-size: 1.6rem;
+}
+header .nav-contact-info a:hover {
+  color: #b33030;
+}
+header .top-nav {
+  height: 13rem;
+  width: 100%;
+  background: rgba(217, 217, 217, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .top-nav .nav-links {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+header .top-nav .nav-links img {
+  height: 100px;
+}
+header .top-nav .nav-links a {
+  font-size: 2.6rem;
+  color: #9b8648;
+  text-decoration: none;
+}
+header .top-nav .nav-links a:hover {
+  color: #000000;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+.top-header p {
+  color: red;
+  display: flex;
+}
