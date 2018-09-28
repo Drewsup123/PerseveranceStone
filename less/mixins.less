@@ -3,4 +3,22 @@
     justify-content: center;
     align-items:center;
 }
+.btn-styling{
+    .center();
+    font-size:2rem;
+    background:@background-grey;
+    font-weight:bold;
+    border:1px solid @beige-color;
+    border-radius:5px;
+    height:50px;
+    width:250px;
+    color:@beige-color;
+    &:hover{
+        cursor: pointer;
+        color:@background-grey;
+        background:@beige-color;
+        border:1px solid @background-grey;
+        transition:.5s;
+    }
+}
 
